@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing test</title>
+    <link rel="stylesheet" href="typing.css">
+    <script defer src="typing.js"></script>
+</head>
+<body>
+    <div class="typing_container">
+        <div class="title">
+            <h1>Welcome to my typing master</h1>
+            <div class="given_text">
+                <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, architecto?</p>
+            </div>
+            
+        </div>
+        <!-- typing box -->
+        <div class="typing_box">
+            <textarea name="typingbox" id="typingbox" cols="120" rows="10"></textarea>
+        </div>
+        <div class="btn">
+            
+            <button id="btn_start">start</button>
+            <button id="btn_done">Done</button>
+        </div>  
+        <div class="wpm">
+            <h3 id="details">Time Taken : <span id="time_taken"></span></h3>
+            <h3 id="details">Given Words : <span id="given_words"></span></h3>
+            <h3 id="dettails">Typed Words : <span id="typed_words"></span></h3>
+        </div>
+        <div class="error_words">
+            <h3>Error Words : <span id="errors"></span></h3>
+            <h3>Words per min : <span id="wordpm"></span></h3>
+        </div>
+    </div>
+</body>
+</html>

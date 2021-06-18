@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+}
+.typing_container{
+    height:100vh;
+    background-color: rgb(207, 207, 207);
+}
+.title h1{
+    padding:4rem 0 2rem;
+    font-family: sans-serif;
+
+    display:flex;
+    justify-content: center;
+}
+.given_text{
+    padding:0 2rem;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    font-family: monospace;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+}
+.btn button{
+    padding:10px 20px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 5px;
+}
+#btn_done{
+    display: none;
+}
+/* typing box */
+.typing_box{
+    padding:3rem;
+    display:flex;
+    justify-content: center;
+}
+.typing_box>textarea{
+    padding:10px 20px;
+    border:none;
+    border-radius: 10px;;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(230, 230, 230);
+}
+.typing_box>textarea:focus{
+    
+    outline:2px solid rgb(7, 128, 53);
+}
+/* wpm */
+.wpm{
+    position: relative;
+    display:block;
+    margin: 0 60px ;
+    font-family: monospace  ;
+    color:green;
+    font-size:16px;
+}
+.error_words{
+    font-family: monospace  ;
+    color:green;
+    font-size: 16px;
+    display: block;
+    float:right;
+    margin:-50px 120px;
+}
